@@ -1,34 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
-
 html, body {
-  height: 100%;
-  font-size: 21px;
+    height: 100%;
 }
 
 body {
-    font-family: 'Federo', sans-serif;
-    background: rgb(197,238,174);
+    font-family: 'Manrope', sans-serif;
     background: radial-gradient(circle, #edaeee 0%, #6284ff 100%);
 }
 
-a {
+
+a, a:link {
     color: #000;
     text-decoration: none;
-    text-transform: uppercase;
 }
 article {
     margin: 1.5rem;
 }
 h4 {
+    font-size: 2.8rem;
+    font-family: 'Federo', sans-serif;
     display: flex;
     justify-content: center;
-    margin: 1.8rem;
+    margin: 1.5rem;
+}
+span {
+    font-size: 1.5rem;
+    font-family: 'Manrope', sans-serif;
 }
 
 
 .bottone {
     background-color: transparent;
     border: 2px solid #000;
+    border-radius: 5px;
     padding: 10px 20px;
     margin: 0.7rem 0;
     width: 100%;

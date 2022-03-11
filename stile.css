@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+
+html, body {
+  height: 100%;
+  font-size: 21px;
+}
+
+body {
+    font-family: 'Federo', sans-serif;
+    background: rgb(197,238,174);
+    background: radial-gradient(circle, #edaeee 0%, #6284ff 100%);
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+article {
+    margin: 1.5rem;
+}
+h4 {
+    display: flex;
+    justify-content: center;
+    margin: 1.8rem;
+}
+
+
+.bottone {
+    background-color: transparent;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    margin: 0.7rem 0;
+    width: 100%;
+}
+
+.bottone:hover, .bottone:focus {
+    color: #ffffff;
+    border: 2px solid #fff;
+    transform: translateY(-0.25em);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+/*footer animation*/
+.link:hover, .link:focus {
+    transform: translateY(-0.25em);
+}
+
+footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .bottone {
+      display: block;
+      width: 40%;
+      margin: 0.8rem auto;
+  }
+}

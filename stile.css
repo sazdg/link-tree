@@ -4,7 +4,7 @@
 body {
     font-family: 'Manrope', sans-serif;
     background: rgb(174,216,238);
-    background: radial-gradient(circle, rgba(174,216,238,1) 0%, rgba(98,124,255,1) 100%);
+    background: radial-gradient(circle, rgba(174,216,238,1) 0%, rgb(105, 110, 255) 100%);
 }
 
 a, a:link, a:visited, a:active, a:focus {
